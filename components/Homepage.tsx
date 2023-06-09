@@ -38,9 +38,9 @@ function Homepage  ( {}:props) {
             <h1 className="space-y-3 font-semibold tracking-wide text-5xl lg:text-6xl xl:text-5xl" >
                 <span className="block  text-white  bg-clip-text text-transparent  " > Welcome to Nasrda  </span>
                 <span className="block font-bold md:text-[60px] text-white font-serif " >Club</span>
-                <p  className="text-[20px] text-[#fff] " >something about us </p>
-                <p  className="text-[20px] text-[#fff] " >something about us </p>
-                <p  className="text-[20px] text-[#fff] " >something about us </p>
+                <p  className="text-[30px] text-[#fff]   tracking-wide" >something about us </p>
+                <p  className="text-[30px] text-[#fff] tracking-wide" >something about us </p>
+                <p  className="text-[30px] text-[#fff]  tracking-wide" >something about us </p>
             </h1>
             <div className="space-x-8 " >
                 {/* <Button title="Order Now" />  Order ke?? lmao TeD*/}
