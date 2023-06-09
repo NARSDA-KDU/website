@@ -6,7 +6,7 @@ import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube } from "react-icons/
 
 function Navbar() {
   return (
-    <section className='sticky top-0 z-20 bg-black grid grid-rows-2'>
+    <section className='sticky top-0 py-4 z-20 max-h-14 bg-black grid grid-rows-2'>
         {/* unnecessary  logo since my "partner* alreaady did it/}
       {/* <div className=' p-2 flex w-screen isolate justify-stretch'>
         <Image 
