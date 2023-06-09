@@ -43,7 +43,7 @@ function Homepage  ( {}:props) {
                 <p  className="text-[20px] text-[#fff] " >something about us </p>
             </h1>
             <div className="space-x-8 " >
-                {/* <Button title="Order Now" />  */}
+                {/* <Button title="Order Now" />  Order ke?? lmao TeD*/}
                 <a className="Link" > Learn More </a>
             </div>
         </motion.div>

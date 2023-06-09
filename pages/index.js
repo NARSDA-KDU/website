@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Homepage from '../components/Homepage';
 import Navpage from '../components/Navpage';
+import Navbar from '../components/Navbar';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       <div className=" ">
         <Navpage />
+        <Navbar />
         <Homepage />
       </div>
     </div>

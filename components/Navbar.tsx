@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube } from "react-icons/ai"
 
 
-function Navpage() {
+function Navbar() {
   return (
     <section className='sticky top-0 z-20 bg-black grid grid-rows-2'>
       <div className=' p-2 flex w-screen isolate justify-stretch'>
@@ -44,4 +44,4 @@ function Navpage() {
   )
 }
 
-export default Navpage
+export default Navbar
