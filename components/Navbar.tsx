@@ -7,7 +7,8 @@ import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube } from "react-icons/
 function Navbar() {
   return (
     <section className='sticky top-0 z-20 bg-black grid grid-rows-2'>
-      <div className=' p-2 flex w-screen isolate justify-stretch'>
+        {/* unnecessary  logo since my "partner* alreaady did it/}
+      {/* <div className=' p-2 flex w-screen isolate justify-stretch'>
         <Image 
           src="/img/kdulogo.png"
           alt='KDUlogo'
@@ -20,7 +21,7 @@ function Navbar() {
           width={50}
           height={50}
         />
-      </div>
+      </div> */}
       <nav className=' bg-white bg-opacity-50 justify-around py-1 px-2 rounded-full h-12 w-2/3  mx-auto border-slate-500'>
         <ul className='justify-evenly flex mx-auto items-center '>
           <li className='text-1xl hover:text-2xl rounded ring-2 ring-blue-500 text-white transition ease-in-out delay-100 hover:translate-y-1 hover:scale-110 hover:ring-indigo-500 duration-200'>
