@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import Homepage from '../components/Homepage';
 import Navpage from '../components/Navpage';
+import About from '../components/About';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
       <div className="bg-black ">
         <Navpage />
         <Homepage />
+        <About />
+        <Footer />
       </div>
     </div>
   );

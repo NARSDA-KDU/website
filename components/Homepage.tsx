@@ -42,13 +42,16 @@ function Homepage  ( {}:props) {
       duration:1.5,
     }} >
 
+
             <h1 className="space-y-3 text-4xl font-semibold tracking-wide lg:text-6xl xl:text-7xl" >
                 <span className="block text-transparent text-white uppercase bg-clip-text " > Welcome to NASRDA  </span>
                 <span className="block font-bold md:text-[60px] text-white font-serif " >{text}</span>
                 <p  className="text-[20px] text-[#fff] " >something about us </p>
                 <p  className="text-[20px] text-[#fff] " >something about us </p>
                 <p  className="text-[20px] text-[#fff] " >something about us </p>
-            </h1>
+                </h1>
+=======
+        
             <div className="space-x-8 text-white " >
                 {/* <Button title="Order Now" />  */}
                 <a className=" inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] 
