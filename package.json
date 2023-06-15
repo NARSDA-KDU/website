@@ -9,12 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "flowbite": "^1.6.5",
+    "flowbite-react": "^0.4.7",
     "framer-motion": "^10.12.16",
     "next": "13.4.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hook-form": "^7.44.3",
     "react-simple-typewriter": "^5.0.1",
+    "react-social-icons": "^5.15.0",
+    "react-icons": "^4.9.0",
     "react-social-icons": "^5.15.0"
   },
   "devDependencies": {
