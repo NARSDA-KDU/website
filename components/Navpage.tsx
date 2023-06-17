@@ -7,7 +7,7 @@ type props = {}
 function Navpage  ({}:props) {
   return (
     <div>
-        navbar
+        Arrgh
       
     </div>
   )
