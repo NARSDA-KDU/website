@@ -4,6 +4,7 @@ import Navpage from '../components/Navpage';
 import Navbar from '../components/Navbar';
 import About from '../components/About';
 import Footer from '../components/Footer';
+import Ourteam from '../components/Ourteam';
 
 export default function Home() {
   return (
@@ -15,9 +16,10 @@ export default function Home() {
       </Head>
       <div className="bg-black ">
         <Navpage />
-        <Navbar />
+        {/* <Navbar /> */}
         <Homepage />
         <About />
+        <Ourteam />
         <Footer />
       </div>
     </div>
