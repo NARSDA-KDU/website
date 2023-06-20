@@ -1,5 +1,6 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons';
+import { Link, scroller } from 'react-scroll';
 import { motion } from "framer-motion"
 import { Navbar } from "flowbite-react";
 
@@ -13,7 +14,7 @@ function Navpage  ({}:props) {
         rounded={true}
         className='bg-white bg-opacity-80'
       >
-        <Navbar.Brand href="#/">
+        <Navbar.Brand href="#homepage/">
           <img
             src="/img/nasrdalogo.png"
             className="mr-3 h-6 sm:h-9"
@@ -26,12 +27,13 @@ function Navpage  ({}:props) {
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Navbar.Link
-            href="#"
+            href="#homepage"
             active={true}
+            className='smooth-scroll'
           >
             Home
           </Navbar.Link>
-          <Navbar.Link href="/#about">
+          <Navbar.Link href="/#about" className='smooth-scroll'>
             About
           </Navbar.Link>
           <Navbar.Link href="/navbars">
@@ -40,7 +42,7 @@ function Navpage  ({}:props) {
           <Navbar.Link href="/navbars">
             Pricing
           </Navbar.Link>
-          <Navbar.Link href="/#footer">
+          <Navbar.Link href="/#footer" className='smooth-scroll'>
             Contact
           </Navbar.Link>
         </Navbar.Collapse>

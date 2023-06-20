@@ -22,7 +22,7 @@ function Homepage  ( {}:props) {
 
 
   return (
-    <section  className="sticky items-center justify-between h-screen px-8 mx-auto xl:flex " >
+    <section  className="sticky items-center justify-between h-screen px-8 mx-auto xl:flex " id='homepage' >
         {/* Used frame motion for the the transition */}
         <  motion.div className='space-y-3' 
           initial={{
